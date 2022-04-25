@@ -15,7 +15,7 @@ Can only be used when the application registered with Fitbit is of type "Persona
 
 ## Usage
 
-**Step 1** - Store the fitbit access token and the user's id in the variables ```access_token``` and ```user_id``` in ```extractHR.py```
+**Step 1** - Store the fitbit access token and the user's id in the variables ```access_token``` and ```user_id``` in [`extractHR.py`](extractHR.py)
 
 **Step 2** - Run the python script as follows:
 ```
@@ -33,8 +33,8 @@ Where,
 - Even though the detail level specified is 1 second, heart rate readings are typically recorded every 5-15 seconds, and or 1-3 seconds when the Fitbit device is in "exercise mode".
 
 **Sample Output:**
-- View the file ```hr_2022-03-24_09_30_09_35.csv``` for sample heart rate data, when the Fitbit device in regular mode
-- View the file ```hr_2022-02-03_18_30_18_35.csv``` for sample heart rate data, when Fitbit device exercise mode
+- View the file [`hr_2022-03-24_09_30_09_35.csv`](hr_2022-03-24_09_30_09_35.csv) for sample heart rate data, when the Fitbit device in regular mode
+- View the file [`hr_2022-02-03_18_30_18_35.csv`](hr_2022-02-03_18_30_18_35.csv) for sample heart rate data, when Fitbit device exercise mode
 
 **Response codes**:
 - **200**: request was successful
